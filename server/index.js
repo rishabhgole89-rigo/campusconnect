@@ -63,9 +63,9 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🚀 Campus Connect server running on port ${PORT}`);
-  console.log(`📊 Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`🌐 CORS origin: ${process.env.CLIENT_URL || 'http://localhost:5173'}\n`);
+  console.log(`\n Campus Connect server running on port ${PORT}`);
+  console.log(` Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(` CORS origin: ${process.env.CLIENT_URL || 'http://localhost:5173'}\n`);
 });
 
 module.exports = app;
