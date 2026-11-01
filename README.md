@@ -56,7 +56,7 @@ Password: password123
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 campus-connect/
