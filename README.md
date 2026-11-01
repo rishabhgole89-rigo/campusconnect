@@ -7,7 +7,7 @@ Campus Connect is a production-quality full-stack web application that helps col
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js ≥ 18
