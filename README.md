@@ -1,4 +1,4 @@
-# Campus Connect 🎓
+# Campus Connect 
 
 > **College Professional Networking & Collaboration Platform**
 > Built with MERN Stack + Graph Algorithms (BFS, DFS, HashMap/HashSet)
@@ -7,7 +7,7 @@ Campus Connect is a production-quality full-stack web application that helps col
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js ≥ 18
@@ -56,7 +56,7 @@ Password: password123
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 campus-connect/
@@ -84,7 +84,7 @@ campus-connect/
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
@@ -113,7 +113,7 @@ campus-connect/
 
 ---
 
-## 🧮 Data Structures & Algorithms
+##  Data Structures & Algorithms
 
 ### 1. Graph — Adjacency List
 
@@ -208,7 +208,7 @@ Scoring:
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 cd server
@@ -223,7 +223,7 @@ npm test
 
 ---
 
-## 🌱 Seed Data
+##  Seed Data
 
 The seed script creates:
 
@@ -245,7 +245,7 @@ The seed script creates:
 
 ---
 
-## 🎨 Frontend Pages
+##  Frontend Pages
 
 | Route | Page | Feature |
 |-------|------|---------|
@@ -265,7 +265,7 @@ The seed script creates:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -281,7 +281,7 @@ The seed script creates:
 
 ---
 
-## 👥 Test Accounts
+##  Test Accounts
 
 All accounts use password: `password123`
 
@@ -295,4 +295,4 @@ All accounts use password: `password123`
 
 ---
 
-*Campus Connect — Built with ❤️ using MERN Stack + Graph Algorithms*
+*Campus Connect — Built with Love using MERN Stack + Graph Algorithms*
