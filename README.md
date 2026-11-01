@@ -113,7 +113,7 @@ campus-connect/
 
 ---
 
-## 🧮 Data Structures & Algorithms
+##  Data Structures & Algorithms
 
 ### 1. Graph — Adjacency List
 
@@ -208,7 +208,7 @@ Scoring:
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 cd server
@@ -223,7 +223,7 @@ npm test
 
 ---
 
-## 🌱 Seed Data
+##  Seed Data
 
 The seed script creates:
 
@@ -245,7 +245,7 @@ The seed script creates:
 
 ---
 
-## 🎨 Frontend Pages
+##  Frontend Pages
 
 | Route | Page | Feature |
 |-------|------|---------|
