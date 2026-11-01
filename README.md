@@ -84,7 +84,7 @@ campus-connect/
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
