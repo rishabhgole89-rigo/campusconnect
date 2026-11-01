@@ -265,7 +265,7 @@ The seed script creates:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -281,7 +281,7 @@ The seed script creates:
 
 ---
 
-## 👥 Test Accounts
+##  Test Accounts
 
 All accounts use password: `password123`
 
@@ -295,4 +295,4 @@ All accounts use password: `password123`
 
 ---
 
-*Campus Connect — Built with ❤️ using MERN Stack + Graph Algorithms*
+*Campus Connect — Built with Love using MERN Stack + Graph Algorithms*
