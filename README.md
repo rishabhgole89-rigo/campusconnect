@@ -1,4 +1,4 @@
-# Campus Connect 🎓
+# Campus Connect 
 
 > **College Professional Networking & Collaboration Platform**
 > Built with MERN Stack + Graph Algorithms (BFS, DFS, HashMap/HashSet)
