@@ -1,27 +1,27 @@
-# Campus Connect 🎓
+Campus Connect
 
-> **College Professional Networking & Collaboration Platform**
-> Built with MERN Stack + Graph Algorithms (BFS, DFS, HashMap/HashSet)
+**College Professional Networking & Collaboration Platform**
+Built with MERN Stack + Graph Algorithms (BFS, DFS, HashMap/HashSet)
 
 Campus Connect is a production-quality full-stack web application that helps college students **discover like-minded peers**, **find hackathon teammates**, **trace network connections**, and **explore campus communities** — all powered by real Data Structures and Algorithms.
 
 ---
 
-## 🚀 Quick Start
+Quick Start
 
-### Prerequisites
+Prerequisites
 - Node.js ≥ 18
 - MongoDB (local, running on port 27017)
 - npm
 
-### 1. Install dependencies
+1. Install dependencies
 ```bash
 # From project root
 cd server && npm install
 cd ../client && npm install
 ```
 
-### 2. Configure environment
+2. Configure environment
 `server/.env` is pre-configured for local MongoDB. If needed, edit:
 ```
 MONGODB_URI=mongodb://localhost:27017/campus-connect
@@ -30,25 +30,25 @@ PORT=5000
 CLIENT_URL=http://localhost:5173
 ```
 
-### 3. Seed the database
+3. Seed the database
 ```bash
 cd server && npm run seed
 ```
 This creates 25 fictional students, 34 connections, and 5 opportunities.
 
-### 4. Start the backend
+4. Start the backend
 ```bash
 cd server && npm run dev
 ```
 
-### 5. Start the frontend (new terminal)
+5. Start the frontend (new terminal)
 ```bash
 cd client && npm run dev
 ```
 
 Visit **http://localhost:5173**
 
-### 6. Log in with demo account
+6. Log in with demo account
 ```
 Email:    rahul@campus.edu
 Password: password123
@@ -56,7 +56,7 @@ Password: password123
 
 ---
 
-## 🏗️ Architecture
+Architecture
 
 ```
 campus-connect/
@@ -84,7 +84,7 @@ campus-connect/
 
 ---
 
-## 📡 API Reference
+API Reference
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
@@ -113,9 +113,9 @@ campus-connect/
 
 ---
 
-## 🧮 Data Structures & Algorithms
+Data Structures & Algorithms
 
-### 1. Graph — Adjacency List
+1. Graph — Adjacency List
 
 **File:** [`server/algorithms/Graph.js`](server/algorithms/Graph.js)
 
@@ -131,7 +131,7 @@ Neighbor lookup: O(1) via HashSet
 
 ---
 
-### 2. BFS — Breadth-First Search
+2. BFS — Breadth-First Search
 
 **File:** [`server/algorithms/bfs.js`](server/algorithms/bfs.js)
 
@@ -152,7 +152,7 @@ DFS would find A path but not necessarily the shortest one.
 
 ---
 
-### 3. DFS — Depth-First Search (Iterative, Stack-based)
+3. DFS — Depth-First Search (Iterative, Stack-based)
 
 **File:** [`server/algorithms/dfs.js`](server/algorithms/dfs.js)
 
@@ -175,7 +175,7 @@ Components in seed data:
 
 ---
 
-### 4. HashMap / HashSet — Mutual Connections & Skill Index
+4. HashMap / HashSet — Mutual Connections & Skill Index
 
 **Files:** [`server/algorithms/recommendations.js`](server/algorithms/recommendations.js), [`server/controllers/connectionController.js`](server/controllers/connectionController.js)
 
@@ -194,7 +194,7 @@ HashMap (inverted index) for skill-based collaborators:
 
 ---
 
-### 5. Recommendation Algorithms
+5. Recommendation Algorithms
 
 | Function | Algorithm | Complexity |
 |----------|-----------|------------|
@@ -208,7 +208,7 @@ Scoring:
 
 ---
 
-## 🧪 Running Tests
+Running Tests
 
 ```bash
 cd server
@@ -223,7 +223,7 @@ npm test
 
 ---
 
-## 🌱 Seed Data
+Seed Data
 
 The seed script creates:
 
@@ -245,7 +245,7 @@ The seed script creates:
 
 ---
 
-## 🎨 Frontend Pages
+Frontend Pages
 
 | Route | Page | Feature |
 |-------|------|---------|
@@ -265,7 +265,7 @@ The seed script creates:
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -281,7 +281,7 @@ The seed script creates:
 
 ---
 
-## 👥 Test Accounts
+Test Accounts
 
 All accounts use password: `password123`
 
